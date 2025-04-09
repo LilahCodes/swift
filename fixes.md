@@ -39,7 +39,7 @@ If you use other antiviruses such as McAfee, Norton, AVG, Avast, just search on 
 
 ### Swift website
 
-If the swift website itself wont load, use a vpn. Its probably an ISP issue blocking the website. This *might* mean you need to use a vpn the whole time you are using swift, just test it out as its different per user.
+If the swift website itself wont load, use a [vpn](#what-vpn-to-use). Its probably an ISP issue blocking the website. Important to note if you obtain a key using a vpn you **MUST** also redeem the key while using that vpn, after redeeming you can disable.
 
 ### Lootlabs
 
