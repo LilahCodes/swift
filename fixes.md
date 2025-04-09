@@ -36,6 +36,7 @@ This is a dll swift uses for injection, and if defender blocks it will result in
 If you use other antiviruses such as McAfee, Norton, AVG, Avast, just search on youtube how to disable them. Or better yet search how to add folder exceptions to save future isues.
 
 ## Key system Issues
+Use Microsoft Edge browser in an **incognito/private tab**
 
 ### Swift website
 
@@ -44,8 +45,6 @@ If the swift website itself wont load, use a [vpn](#what-vpn-to-use). Its probab
 ### Lootlabs
 
 Disable VPN
-
-Use Microsoft Edge browser in an **incognito/private tab**
 
 Use [Quad9 DNS](https://youtube.com/watch?v=aujUl3yt6nM)
 
