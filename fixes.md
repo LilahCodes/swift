@@ -1,4 +1,8 @@
 [ONLY OFFICIAL DOWNLOAD](https://getswift.gg/)
+Status: Down
+Last updated version: 347f4ac346734391
+Discord: https://discord.gg/getswift
+
 # List of known fixes for swift issues  
 READ AND TRY THESE FIXES **BEFORE** OPENING A TICKET
 
