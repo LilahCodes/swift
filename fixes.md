@@ -89,7 +89,6 @@ Using McAfee, Norton, AVG, Avast? Just search how to disable or make folder exce
 
 ### Swift website won’t load?
 - Use [Warp VPN](#what-vpn-to-use)
-- Use **Microsoft Edge** in **incognito/private tab**
 
 > [!NOTE]
 > If you obtain a key using a VPN, you **MUST** redeem the key using the same VPN. After that, you can turn it off.
