@@ -1,16 +1,17 @@
-# [ONLY OFFICIAL DOWNLOAD](https://getswift.gg/)<br/>
+# 🛠️ Swift Troubleshooting Guide
 
-Status: Down<br/>
-Last updated version: 347f4ac346734391<br/>
-Discord: https://discord.gg/getswift<br/>
+> [!IMPORTANT]
+> [Only official download](https://getswift.gg/)  
+> **Status:** 🚫 Down  
+> **Last updated version:** `347f4ac346734391`  
+> **Join the community:** [Swift Discord](https://discord.gg/getswift)
 
-# List of known fixes for swift issues  
-READ AND TRY THESE FIXES **BEFORE** OPENING A TICKET
+---
 
-## Table of Contents
-- [Issues with no fix / Planned features](#issues-with-no-fix--planned-features-and-fixes)
-- [How do i downgrade?](#how-do-i-downgrade)
-- [How do i disable my antivirus?](#how-do-i-disable-my-antivirus)
+## 📋 Table of Contents
+- [Issues with No Fix / Planned Features](#issues-with-no-fix--planned-features)
+- [How do I downgrade?](#how-do-i-downgrade)
+- [How do I disable my antivirus?](#how-do-i-disable-my-antivirus)
 - [Key system Issues](#key-system-issues)
 - [Fatal Error](#fatal-error)
 - [Injection Timeout](#injection-timeout)
@@ -18,148 +19,189 @@ READ AND TRY THESE FIXES **BEFORE** OPENING A TICKET
 - [Failed to relocate module](#failed-to-relocate-module)
 - [Your system clock is incorrect](#your-system-clock-is-incorrect)
 - [White screen](#white-screen)
-- [What vpn to use](#what-vpn-to-use)
+- [What VPN to use](#what-vpn-to-use)
 - [Not executing](#not-executing)
 - [Dependencies](#dependencies)
 
-## Issues with no fix / Planned features and fixes
+---
 
-Script editor is bugged:
+## Issues with No Fix / Planned Features
+
+> [!NOTE]
+> These are known issues or upcoming features that are being worked on.
+
+Script editor bugs:
 - Switching tabs clears active text
-- Auto filling with tab dosent work
-- Cant rename files/tabs directly
+- Tab autofill doesn't work
+- Cannot rename files/tabs directly
 
-Multi instance is not yet supported, might be possible via third party tools. Its planned and coming soon
+Planned:
+- Multi-instance is not yet supported. Might work via third-party tools, but official support is coming soon.
 
-## How do i downgrade?
+---
 
-### Downgrading is NOT supported and is most likely detected. Meaning you have a higher chance of being banned. We are not responsible for any bans<br/>
-You might want to downgrade if swift hasnt updated yet, to do so:
+## How do I downgrade?
 
-- Head to https://rdd.latte.to
-- Input the version hash, its at the top of this document next to `Last updated version:`
-- Hit download and wait
-- Unzip the file you just downloaded
-- To launch roblox, go inside the folder and open `RobloxPlayerBeta.exe`
-- Now inject and everything should work as normal
+> [!CAUTION]
+> Downgrading is NOT supported and is likely detected. This increases your chances of getting banned. We take no responsibility and **support will not** assist with any issues caused by downgrading.
 
-Remember this is probably detected!! Also any issues you encounter doing this will not be helped by swift support, as downgrading is not supported.
+You might want to downgrade if Swift hasn’t updated yet. Here’s how:
 
-## How do i disable my antivirus?
+1. Go to https://rdd.latte.to  
+2. Input the version hash: `347f4ac346734391`  
+3. Download and unzip the file  
+4. Open `RobloxPlayerBeta.exe` inside the folder  
+5. Inject as normal
 
-All windows pcs come with Windows Defender by default, which is an antivirus. Due to swift being the type of program it is, any antivirus will falsely flag it.
-Here are some guides for disablng it:
+Again—this is probably detected, and any issues here won’t be helped by support.
 
-[Windows 10](https://www.youtube.com/watch?v=1GgtAxWxhMQ)
-[Windows 11](https://www.youtube.com/watch?v=o0OTed9c_GQ)
+---
 
-### Exceptions
+## How do I disable my antivirus?
 
-Since you would need to do this on every restart though, you should make exceptions instead. This basically just makes defender "skip over" whatever folders you choose:
+> [!TIP]
+> Swift often triggers false positives because of how it operates. Disabling antivirus or adding exceptions is necessary.
 
-[Windows 10](https://www.youtube.com/watch?v=BonLkFNnO9w)
-[Windows 11](https://www.youtube.com/watch?v=zGiNGnX5dYg)
+### Windows Defender (default on all Windows PCs)
 
-You want to add the folder wherever your swift files are stored first off, but also you want to add `C:\Users\YOUR_USER\AppData\Local\Temp\amdxx64.dll`
-This is a dll swift uses for injection, and if defender blocks it will result in the (Injection Timeout) Error
+- [Windows 10 Disable Guide](https://www.youtube.com/watch?v=1GgtAxWxhMQ)  
+- [Windows 11 Disable Guide](https://www.youtube.com/watch?v=o0OTed9c_GQ)
 
-If you use other antiviruses such as McAfee, Norton, AVG, Avast, just search on youtube how to disable them. Or better yet search how to add folder exceptions to save future isues.
+### Add Exceptions Instead (Recommended)
+- [Windows 10 Exceptions Guide](https://www.youtube.com/watch?v=BonLkFNnO9w)  
+- [Windows 11 Exceptions Guide](https://www.youtube.com/watch?v=zGiNGnX5dYg)
+
+Add these paths:
+- Your Swift folder
+- `C:\Users\YOUR_USER\AppData\Local\Temp\amdxx64.dll`
+
+> [!IMPORTANT]
+> That DLL (`amdxx64.dll`) is used by Swift for injection. If it's blocked, you’ll get the [Injection Timeout](#injection-timeout) error.
+
+Using McAfee, Norton, AVG, Avast? Just search how to disable or make folder exceptions for your antivirus on YouTube.
+
+---
 
 ## Key system Issues
-Use Microsoft Edge browser in an **incognito/private tab**
 
-### Swift website
+### Swift website won’t load?
+- Use [Warp VPN](#what-vpn-to-use)
+- Use **Microsoft Edge** in **incognito/private tab**
 
-If the swift website itself wont load, use a [vpn](#what-vpn-to-use). Its probably an ISP issue blocking the website. Important to note if you obtain a key using a vpn you **MUST** also redeem the key while using that vpn, after redeeming you can disable.
+> [!NOTE]
+> If you obtain a key using a VPN, you **MUST** redeem the key using the same VPN. After that, you can turn it off.
 
-### Lootlabs
+### Lootlabs issues?
+- Disable VPN  
+- Use [Quad9 DNS](https://youtube.com/watch?v=aujUl3yt6nM)  
+- Refresh stuck tasks  
+- If given an article task, click inside **the same tab** that opens.
 
-Disable VPN
-
-Use [Quad9 DNS](https://youtube.com/watch?v=aujUl3yt6nM)
-
-If a task is infinitely loading, refresh for another task. Also if you get an article task you have to click an article within the tab it opens for lootlabs to register it
+---
 
 ## Fatal Error
-Fatal error or Unexpected; Close UI and ROBLOX. Launch Swift first, then roblox.
+
+Close Swift and Roblox completely.
+
+1. Launch Swift first  
+2. Then launch Roblox
+
+---
 
 ## Injection Timeout
 
-**Before** doing the following steps, refer to [this](#how-do-i-disable-my-antivirus) to turn off ur antivirus, **and** make an exception for the amd dll. Defender can and will delete this file without you knowing, and this can cause the injection timeout error. Restore the file and then make an exception.
+> [!IMPORTANT]
+> First, make sure [antivirus is disabled and exceptions are added](#how-do-i-disable-my-antivirus). Defender can silently delete `amdxx64.dll`.
 
-[How to restore file](https://www.youtube.com/watch?v=EWaw1XZJj58)
-[How to make an exception](#exceptions)
+- [Restore the DLL](https://www.youtube.com/watch?v=EWaw1XZJj58)  
+- [Add an Exception](#how-do-i-disable-my-antivirus)
 
-### If you're still getting this error
+### Still getting this error?
 
-- Log in to the administrator account on your computer.
-- Download the latest roblox version.
-- If Roblox is already installed on the administrator account, uninstall it first (it may be outdated).
-- Install the newly downloaded Roblox version.
-- Return to Your User Account:
-- Log back into your original account.
-- Launch Swift as administrator, then launch Roblox as administrator.
+1. Log into an **administrator account**
+2. Download the latest Roblox
+3. If Roblox is already installed, uninstall it
+4. Install the freshly downloaded one
+5. Log back into your original user account
+6. Launch Swift as admin, then launch Roblox as admin
 
-Alternative (Simpler) Solution:
-- Use the administrator account to download and install both the correct roblox version and swift
-- Run them directly from the admin account.
-- This should resolve the injection timeout issue.
-- Another fix is to reinstall swift and roblox
+> **Alternative (Simpler):** Install and run both Swift + Roblox directly from the admin account.
+
+---
 
 ## Module not found
-- Ensure [antivirus is disabled](#how-do-i-disable-my-antivirus)
-- Close swift & Roblox
-- Delete 'Swift-Module.dll'
-- Relaunch swift then roblox
 
+- Make sure [antivirus is disabled](#how-do-i-disable-my-antivirus)
+- Close both Swift & Roblox
+- Delete `Swift-Module.dll`
+- Relaunch Swift, then Roblox
+
+---
 
 ## Failed to relocate module
-- Ensure [antivirus is disabled](#how-do-i-disable-my-antivirus)
-- Run as admin
-- Relaunch both swift and roblox multiple times. Swift first, then roblox
-- Another fix is If you are facing any issue such as “Failed to locate module”, “Missing DLL”, or unable to use Swift, please ensure you have [this](https://aka.ms/vs/17/release/vc_redist.x64.exe) installed
+
+1. Ensure [antivirus is disabled](#how-do-i-disable-my-antivirus)  
+2. Run Swift and Roblox as admin  
+3. Relaunch both multiple times (Swift first)  
+4. Also install: [VC++ Redistributable](https://aka.ms/vs/17/release/vc_redist.x64.exe)
+
+---
 
 ## Your system clock is incorrect
-- Open settings, Go to Time & Language
-- Go to Date & Time then ensure the Set Time Automatically toggle is on
-- Scroll down and click sync now
-- If this dosen't work for you, use the files from [this](https://discord.com/channels/868278834821230613/1245586098797678685/1358443560927498280) message in the discord. These try to force sync time for you
+
+1. Open **Settings → Time & Language → Date & Time**  
+2. Enable **Set Time Automatically**  
+3. Click **Sync Now**
+
+Still not syncing?  
+Use files from [this Discord message](https://discord.com/channels/868278834821230613/1245586098797678685/1358443560927498280)
+
+---
 
 ## White screen
-Make sure you are running as admin / using an account that has admin priveleges
 
-## What vpn to use
-Warp is a good free choice
-Download [here](https://1.1.1.1/)
+- Make sure you are running Swift as admin  
+- Ensure your Windows account has admin privileges
 
-- Open it
-- Press the arrow at the bottom right of your desktop
-- Click the cloud icon and enable cloudflare warp
-- Relaunch swift and try to inject
-- Youtube guide [here](https://www.youtube.com/watch?v=PQHv5wnePS4) on how to use warp if you prefer
+---
+
+## What VPN to use
+
+> [!TIP]
+> Warp by Cloudflare is free, simple, and works great with Swift.
+
+- Download: [Warp VPN](https://1.1.1.1/)  
+- Open it and enable "Cloudflare Warp"  
+- [YouTube Setup Guide](https://www.youtube.com/watch?v=PQHv5wnePS4)
+
+---
 
 ## Not executing
-- Click the windows key, type run
-- Type inside of run %localappdata% (its different for bloxtrap/fishtrap)
-- Look for the Roblox folder, open versions
-- Delete everything inside the versions folder.
 
-- Go to [this](https://rdd.latte.to) site
-- Set the Binary Type to WindowsPlayer
-- Set the channel name to LIVE
-- Click download, click the link given, then copy the "version-(numbers)"
-- paste the version into Version-Hash
-- Click download
+1. Press `Win + R`, type: `%localappdata%`  
+2. Go to `Roblox/Versions`, delete **everything**
+3. Visit [rdd.latte.to](https://rdd.latte.to)  
+    - Set Binary Type: `WindowsPlayer`  
+    - Channel: `LIVE`  
+    - Paste version number from downloaded zip
+4. Drag the zip into the versions folder  
+5. Remove `Live-WindowsPlayer-` from the filename  
+6. Extract & run Roblox from inside
 
-- Now drag the downloaded zip file into the versions folder you previously deleted everything in.
-- Delete the Live-WindowsPlayer- from the file then extract the file.
-- Double click on the extracted folder and open roblox, scroll down to find it
-- Now swift should execute
+Now Swift should execute properly.
+
+---
 
 ## Dependencies
-- https://dotnet.microsoft.com/en-us/download/dotnet/8.0
-- https://aka.ms/vs/17/release/vc_redist.x64.exe
-- https://aka.ms/vs/17/release/vc_redist.x86.exe
-- https://go.microsoft.com/fwlink/p/?LinkId=2124703
-- https://www.microsoft.com/en-us/download/details.aspx?id=8109
-- https://www.microsoft.com/en-us/download/details.aspx?id=35
+
+> [!NOTE]
+> Make sure all the following are installed:
+
+- [.NET 8.0](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)  
+- [VC++ x64](https://aka.ms/vs/17/release/vc_redist.x64.exe)  
+- [VC++ x86](https://aka.ms/vs/17/release/vc_redist.x86.exe)  
+- [DirectX Runtime](https://go.microsoft.com/fwlink/p/?LinkId=2124703)  
+- [Microsoft Visual C++ 2010](https://www.microsoft.com/en-us/download/details.aspx?id=8109)  
+- [Microsoft Visual C++ 2008](https://www.microsoft.com/en-us/download/details.aspx?id=35)
+
+---
