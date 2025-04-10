@@ -33,7 +33,7 @@ Multi instance is not yet supported, might be possible via third party tools. It
 
 ## How do i downgrade?
 
-###Downgrading is NOT supported and is most likely detected. Meaning you have a higher chance of being banned. We are not responsible for any bans<br/>
+### Downgrading is NOT supported and is most likely detected. Meaning you have a higher chance of being banned. We are not responsible for any bans<br/>
 You might want to downgrade if swift hasnt updated yet, to do so:
 
 - Head to https://rdd.latte.to
