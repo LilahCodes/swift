@@ -84,6 +84,9 @@ Using McAfee, Norton, AVG, Avast? Just search how to disable or make folder exce
 
 ## Key system Issues
 
+> [!IMPORTANT]
+> You **will** encounter key system issues on certain browsers. Please use microsoft edge in an incognito window, this solves most issues
+
 ### Swift website won’t load?
 - Use [Warp VPN](#what-vpn-to-use)
 - Use **Microsoft Edge** in **incognito/private tab**
