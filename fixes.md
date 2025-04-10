@@ -8,6 +8,8 @@ Discord: https://discord.gg/getswift<br/>
 READ AND TRY THESE FIXES **BEFORE** OPENING A TICKET
 
 ## Table of Contents
+- [Issues with no fix / Planned features](#issues-with-no-fix--planned-features-and-fixes)
+- [How do i downgrade?](#how-do-i-downgrade)
 - [How do i disable my antivirus?](#how-do-i-disable-my-antivirus)
 - [Key system Issues](#key-system-issues)
 - [Fatal Error](#fatal-error)
@@ -19,6 +21,29 @@ READ AND TRY THESE FIXES **BEFORE** OPENING A TICKET
 - [What vpn to use](#what-vpn-to-use)
 - [Not executing](#not-executing)
 - [Dependencies](#dependencies)
+
+## Issues with no fix / Planned features and fixes
+
+Script editor is bugged:
+- Switching tabs clears active text
+- Auto filling with tab dosent work
+- Cant rename files/tabs directly
+
+Multi instance is not yet supported, might be possible via third party tools. Its planned and coming soon
+
+## How do i downgrade?
+
+###Downgrading is NOT supported and is most likely detected. Meaning you have a higher chance of being banned. We are not responsible for any bans<br/>
+You might want to downgrade if swift hasnt updated yet, to do so:
+
+- Head to https://rdd.latte.to
+- Input the version hash, its at the top of this document next to `Last updated version:`
+- Hit download and wait
+- Unzip the file you just downloaded
+- To launch roblox, go inside the folder and open `RobloxPlayerBeta.exe`
+- Now inject and everything should work as normal
+
+Remember this is probably detected!! Also any issues you encounter doing this will not be helped by swift support, as downgrading is not supported.
 
 ## How do i disable my antivirus?
 
