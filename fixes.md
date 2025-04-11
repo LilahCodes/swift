@@ -150,9 +150,9 @@ Close Swift and Roblox completely.
 ## Failed to relocate module
 
 - Ensure [antivirus is disabled](#how-do-i-disable-my-antivirus)  
-- Run Swift and Roblox as admin  
-- Relaunch both multiple times (Swift first)  
-- Also install: [VC++ Redistributable](https://aka.ms/vs/17/release/vc_redist.x64.exe)
+- Close both Swift and Roblox
+- Open Swift
+- When loaded, open Roblox
 
 ---
 
