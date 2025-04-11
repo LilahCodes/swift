@@ -9,19 +9,26 @@
 ---
 
 ## 📋 Table of Contents
+
+
+> [!NOTE]
+> These are required for swift to work, refer to [Dependencies](#dependencies)
+
+### Misc
+- [What VPN to use](#what-vpn-to-use)
 - [Issues with No Fix / Planned Features](#issues-with-no-fix--planned-features)
 - [How do I downgrade?](#how-do-i-downgrade)
 - [How do I disable my antivirus?](#how-do-i-disable-my-antivirus)
+### Website
 - [Key system Issues](#key-system-issues)
+### App
 - [Fatal Error](#fatal-error)
 - [Injection Timeout](#injection-timeout)
 - [Module not found](#module-not-found)
 - [Failed to relocate module](#failed-to-relocate-module)
 - [Your system clock is incorrect](#your-system-clock-is-incorrect)
 - [White screen](#white-screen)
-- [What VPN to use](#what-vpn-to-use)
 - [Not executing](#not-executing)
-- [Dependencies](#dependencies)
 
 ---
 
@@ -47,11 +54,11 @@ Planned:
 
 You might want to downgrade if Swift hasn’t updated yet. Here’s how:
 
-1. Go to https://rdd.latte.to  
-2. Input the version hash: `347f4ac346734391`  
-3. Download and unzip the file  
-4. Open `RobloxPlayerBeta.exe` inside the folder  
-5. Inject as normal
+- Go to https://rdd.latte.to  
+- Input the version hash: `347f4ac346734391`  
+- Download and unzip the file  
+- Open `RobloxPlayerBeta.exe` inside the folder  
+- Inject as normal
 
 Again—this is probably detected, and any issues here won’t be helped by support.
 
@@ -105,8 +112,8 @@ Using McAfee, Norton, AVG, Avast? Just search how to disable or make folder exce
 
 Close Swift and Roblox completely.
 
-1. Launch Swift first  
-2. Then launch Roblox
+- Launch Swift first  
+- Then launch Roblox
 
 ---
 
@@ -120,12 +127,12 @@ Close Swift and Roblox completely.
 
 ### Still getting this error?
 
-1. Log into an **administrator account**
-2. Download the latest Roblox
-3. If Roblox is already installed, uninstall it
-4. Install the freshly downloaded one
-5. Log back into your original user account
-6. Launch Swift as admin, then launch Roblox as admin
+- Log into an **administrator account**
+- Download the latest Roblox
+- If Roblox is already installed, uninstall it
+- Install the freshly downloaded one
+- Log back into your original user account
+- Launch Swift as admin, then launch Roblox as admin
 
 > **Alternative (Simpler):** Install and run both Swift + Roblox directly from the admin account.
 
@@ -142,21 +149,23 @@ Close Swift and Roblox completely.
 
 ## Failed to relocate module
 
-1. Ensure [antivirus is disabled](#how-do-i-disable-my-antivirus)  
-2. Run Swift and Roblox as admin  
-3. Relaunch both multiple times (Swift first)  
-4. Also install: [VC++ Redistributable](https://aka.ms/vs/17/release/vc_redist.x64.exe)
+- Ensure [antivirus is disabled](#how-do-i-disable-my-antivirus)  
+- Run Swift and Roblox as admin  
+- Relaunch both multiple times (Swift first)  
+- Also install: [VC++ Redistributable](https://aka.ms/vs/17/release/vc_redist.x64.exe)
 
 ---
 
 ## Your system clock is incorrect
 
-1. Open **Settings → Time & Language → Date & Time**  
-2. Enable **Set Time Automatically**  
-3. Click **Sync Now**
+- Open **Settings → Time & Language → Date & Time**  
+- Enable **Set Time Automatically**  
+- Click **Sync Now**
 
-Still not syncing?  
-Use files from [this Discord message](https://discord.com/channels/868278834821230613/1245586098797678685/1358443560927498280)
+
+> [!TIP] Title
+> Still not syncing?
+> Use the file from [this Discord message](https://discord.com/channels/868278834821230613/1245586098797678685/1358443560927498280)
 
 ---
 
@@ -180,15 +189,15 @@ Use files from [this Discord message](https://discord.com/channels/8682788348212
 
 ## Not executing
 
-1. Press `Win + R`, type: `%localappdata%`  
-2. Go to `Roblox/Versions`, delete **everything**
-3. Visit [rdd.latte.to](https://rdd.latte.to)  
+- Press `Win + R`, type: `%localappdata%`  
+- Go to `Roblox/Versions`, delete **everything**
+- Visit [rdd.latte.to](https://rdd.latte.to)  
     - Set Binary Type: `WindowsPlayer`  
     - Channel: `LIVE`  
     - Paste version number from downloaded zip
-4. Drag the zip into the versions folder  
-5. Remove `Live-WindowsPlayer-` from the filename  
-6. Extract & run Roblox from inside
+- Drag the zip into the versions folder  
+- Remove `Live-WindowsPlayer-` from the filename  
+- Extract & run Roblox from inside
 
 Now Swift should execute properly.
 
@@ -205,5 +214,6 @@ Now Swift should execute properly.
 - [DirectX Runtime](https://go.microsoft.com/fwlink/p/?LinkId=2124703)  
 - [Microsoft Visual C++ 2010](https://www.microsoft.com/en-us/download/details.aspx?id=8109)  
 - [Microsoft Visual C++ 2008](https://www.microsoft.com/en-us/download/details.aspx?id=35)
+
 
 ---
