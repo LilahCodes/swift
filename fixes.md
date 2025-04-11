@@ -12,7 +12,7 @@
 
 
 > [!NOTE]
-> These are required for swift to work, refer to [Dependencies](#dependencies)
+> Some files are required for swift to work, refer to [Dependencies](#dependencies)
 
 ### Misc
 - [What VPN to use](#what-vpn-to-use)
