@@ -19,6 +19,7 @@
 - [Issues with No Fix / Planned Features](#issues-with-no-fix--planned-features)
 - [How do I downgrade?](#how-do-i-downgrade)
 - [How do I disable my antivirus?](#how-do-i-disable-my-antivirus)
+- [Custom themes (Advanced users only, takes effort)](#custom-themes)
 ### Website
 - [Key system Issues](#key-system-issues)
 ### App
@@ -215,5 +216,149 @@ Now Swift should execute properly.
 - [Microsoft Visual C++ 2010](https://www.microsoft.com/en-us/download/details.aspx?id=8109)  
 - [Microsoft Visual C++ 2008](https://www.microsoft.com/en-us/download/details.aspx?id=35)
 
+
+---
+
+## Custom Themes
+
+> [!CAUTION]
+> This takes a lot of effort and may break at any time since it isnt really supported! If you really want to, go for it. Very janky but its cool.
+
+
+- Open command prompt
+- Run `setx WEBVIEW2_ADDITIONAL_BROWSER_ARGUMENTS "--auto-open-devtools-for-tabs"`
+- Open Swift
+- You now have devtools open, in devtools click sources
+- Click the down arrow next to `Page`
+- Click `Overrides`
+- Click select new folder
+- Create a folder and select it, name it whatever you want e.g themes
+- Click allow access at the top
+
+- Now go back to `Page`
+- Click `app/immutable`
+- Click `entry`
+- Right click `start.DXHYFo_A.js` and press override content
+- Paste the following boilerplate (this is the css you will be editing to customize)
+
+```js
+import { l as load_css, a as start } from "../chunks/wUyw4KCP.js";
+
+  
+
+const style = document.createElement("style");
+
+style.innerHTML = `
+
+.titlebar .p-2 .text-sm {
+
+  color: transparent;
+
+  position: relative;
+
+}
+.titlebar .p-2 .text-sm::after {
+
+  content: "Goonsploit"; /*change name in top left*/
+
+  position: absolute;
+
+  left: 5%;
+
+}
+
+  
+
+:root {
+
+  --color-amber-400: #dda0dd !important; /* cant remember what this is for LOL */
+
+  --color-green-200: white !important; /* alert text colour */
+
+  --color-green-500: #23122c !important; /* alert background colour */
+
+
+  --color-zinc-50: white !important; /* script titles */
+
+  --color-zinc-200: #dda0dd !important; /* main text colour */
+
+  --color-zinc-400: #dda0dd !important; /* Non important Buttons on the left */
+
+  --color-zinc-500: #dda0dd !important; /* close minimise buttons etc */
+
+  --color-zinc-700: rgba(255, 255, 255, 0) !important; /* bar at the top */
+
+  --color-zinc-800: rgb(57, 43, 79) !important; /* dividing lines */
+
+  --color-zinc-900: rgb(41, 31, 57) !important; /* main background colour */
+
+  --color-gold-base: #dda0dd !important; /* gold bars */
+
+}
+
+  
+
+[role="code"] {
+
+  position: relative;
+
+  z-index: 1;
+
+}
+
+/* all this is a bullshit workaround to not overlap over the code*/
+
+[role="code"]::before {
+
+  content: "";
+
+  position: absolute;
+
+  inset: 0;
+
+  background-image: url("https://www.everwallpaper.co.uk/cdn/shop/products/cute-gray-cat-wallpaper-mural-plain.jpg"); /*change to ur img url*/
+
+  background-size: cover;
+
+  background-repeat: no-repeat;
+
+  background-position: center;
+
+  filter: blur(4px); /*disable if u want clear img*/
+
+  z-index: -1; /* put the blurred bg behind the content */
+
+  pointer-events: none; /* let clicks pass through */
+
+}
+
+  
+
+[data-mprt="3"] {
+
+  opacity: 0.8; /* controls how well you can see the background image */
+
+}
+
+  
+
+[data-mprt="9"] {
+
+  display: none !important; /*hide the stupid fucking code minimap*/
+
+}
+
+`;
+
+document.head.appendChild(style);
+
+  
+
+export { load_css, start };
+```
+
+Thats it! Refresh in devtools and swift will be themed, you can go ahead and close devtools.
+
+Annoying thing is every time you launch swift you will have to refresh in devtools for the theme to take effect, just the way overrides work. I said it was a lot of effort.
 
 ---
