@@ -55,8 +55,7 @@ Planned:
 
 You might want to downgrade if Swift hasn’t updated yet. Here’s how:
 
-- Go to https://rdd.latte.to  
-- Input the version hash: `347f4ac346734391`  
+- Go to https://rdd.latte.to/?channel=LIVE&binaryType=WindowsPlayer&version=347f4ac346734391 (this is the previous roblox version) 
 - Download and unzip the file  
 - Open `RobloxPlayerBeta.exe` inside the folder  
 - Inject as normal
