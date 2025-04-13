@@ -49,6 +49,9 @@ style.innerHTML = `
 [data-mprt="9"] {
   display: none !important; /*hide the stupid fucking code minimap*/
 }
+.decorationsOverviewRuler {
+  display: none !important; /*hide the weird indent on the right side of the code input*/
+}
 `;
 document.head.appendChild(style);
 export { load_css, start };
