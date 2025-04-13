@@ -60,8 +60,6 @@ You might want to downgrade if Swift hasn’t updated yet. Here’s how:
 - Open `RobloxPlayerBeta.exe` inside the folder  
 - Inject as normal
 
-Again—this is probably detected, and any issues here won’t be helped by support.
-
 ---
 
 ## How do I disable my antivirus?
