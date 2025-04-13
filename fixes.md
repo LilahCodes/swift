@@ -241,6 +241,7 @@ Now Swift should execute properly.
 - Copy the code from [themer.js](https://github.com/LilahCodes/swift/edit/main/themer.js) into your file
 
 Thats it! Save, refresh in devtools and swift will be themed, you can go ahead and close devtools.
+To edit the custom theme just edit the css you find inside your file.
 
 Annoying thing is every time you launch swift you will have to refresh in devtools for the theme to take effect, just the way overrides work. I said it was a lot of effort.
 
