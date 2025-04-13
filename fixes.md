@@ -51,7 +51,7 @@ Planned:
 ## How do I downgrade?
 
 > [!CAUTION]
-> Downgrading is NOT supported and is likely detected. This increases your chances of getting banned. We take no responsibility and **support will not** assist with any issues caused by downgrading.
+> Downgrading might be detected, likely not but still a risk of being banned. Just as there is a risk with exploiting, you have been warned. Use alts!
 
 You might want to downgrade if Swift hasn’t updated yet. Here’s how:
 
