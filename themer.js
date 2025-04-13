@@ -52,6 +52,22 @@ style.innerHTML = `
 .decorationsOverviewRuler {
   display: none !important; /*hide the weird indent on the right side of the code input*/
 }
+
+.logo-icon svg {
+  display: none !important; /* hide original svg */
+}
+
+.logo-icon::before {
+  content: "";
+  display: inline-block;
+  width: 32px; /* adjust as needed */
+  height: 32px;
+  background-image: url("https://png.pngtree.com/png-vector/20221010/ourmid/pngtree-cartoon-rat-with-angry-expression-png-image_6270513.png"); /*new logo link for top left*/
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  bottom: 5%;
+}
 `;
 document.head.appendChild(style);
 export { load_css, start };
