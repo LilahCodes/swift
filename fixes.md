@@ -2,8 +2,8 @@
 
 > [!IMPORTANT]
 > [Only official download](https://getswift.gg/)  
-> **Status:** 🚫 Down  
-> **Last updated version:** `347f4ac346734391`  
+> **Status:** Working
+> **Last updated version:** `c2c9efad42eb44e5`  
 > **Join the community:** [Swift Discord](https://discord.gg/getswift)
 
 ---
