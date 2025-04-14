@@ -117,6 +117,9 @@ Close Swift and Roblox completely.
 
 ## Injection Timeout
 
+> [!NOTE]
+> Have you tried injecting multiple times? For a lot of users the first inject is failing at the moment, but the second or third works.
+
 > [!IMPORTANT]
 > First, make sure [antivirus is disabled and exceptions are added](#how-do-i-disable-my-antivirus). Defender can silently delete `Ckfn1k59vk.exe`.
 
