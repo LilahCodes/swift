@@ -222,7 +222,9 @@ Now Swift should execute properly.
 ## Custom Themes
 
 > [!CAUTION]
-> This takes a lot of effort and may break at any time since it isnt really supported! If you really want to, go for it. Very janky but its cool.
+> This may break at any time since it isnt really supported! If you really want to, go for it. Very janky but its cool.
+
+If you make your own theme and wanna share dm it to me on discord and ill put it on this repo
 
 Either follow the [video guide](https://files.catbox.moe/h7nocd.mp4), or the steps below.
 
