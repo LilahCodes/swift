@@ -226,7 +226,7 @@ Now Swift should execute properly.
 
 If you make your own theme and wanna share dm it to me on discord and ill put it on this repo
 
-Either follow the [video guide](https://files.catbox.moe/h7nocd.mp4), or the steps below.
+Either follow the [video guide](https://files.catbox.moe/h7nocd.mp4) (RECCOMENDED), or the steps below.
 
 - Open command prompt
 - Run `setx WEBVIEW2_ADDITIONAL_BROWSER_ARGUMENTS "--auto-open-devtools-for-tabs"`
