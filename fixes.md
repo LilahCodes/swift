@@ -235,7 +235,7 @@ Now Swift should execute properly.
 - Now go back to `Page`
 - Click `app/immutable`
 - Click `entry`
-- Right click `start.DXHYFo_A.js` and press override content
+- Right click `start.D3pUUVXm.js` and press override content
 - Copy the code from [themer.js](https://github.com/LilahCodes/swift/edit/main/themer.js) into your file
 
 Thats it! Save, refresh in devtools and swift will be themed, you can go ahead and close devtools.
