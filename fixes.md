@@ -2,7 +2,7 @@
 
 > [!IMPORTANT]
 > [Only official download](https://getswift.gg/)  
-> **Status:** Working
+> **Status:** Working</br>
 > **Last updated version:** `c2c9efad42eb44e5`  
 > **Join the community:** [Swift Discord](https://discord.gg/getswift)
 
@@ -78,10 +78,10 @@ You might want to downgrade if Swift hasn’t updated yet. Here’s how:
 
 Add these paths:
 - Your Swift folder
-- `C:\Users\YOUR_USER\AppData\Local\Temp\amdxx64.dll`
+- `%temp%\Ckfn1k59vk.exe`
 
 > [!IMPORTANT]
-> That DLL (`amdxx64.dll`) is used by Swift for injection. If it's blocked, you’ll get the [Injection Timeout](#injection-timeout) error.
+> The file (`Ckfn1k59vk.exe`) is used by Swift. If it's blocked, you’ll get the [Injection Timeout](#injection-timeout) error.
 
 Using McAfee, Norton, AVG, Avast? Just search how to disable or make folder exceptions for your antivirus on YouTube.
 
@@ -118,7 +118,7 @@ Close Swift and Roblox completely.
 ## Injection Timeout
 
 > [!IMPORTANT]
-> First, make sure [antivirus is disabled and exceptions are added](#how-do-i-disable-my-antivirus). Defender can silently delete `amdxx64.dll`.
+> First, make sure [antivirus is disabled and exceptions are added](#how-do-i-disable-my-antivirus). Defender can silently delete `Ckfn1k59vk.exe`.
 
 - [Restore the DLL](https://www.youtube.com/watch?v=EWaw1XZJj58)  
 - [Add an Exception](#how-do-i-disable-my-antivirus)
