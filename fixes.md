@@ -224,9 +224,7 @@ Now Swift should execute properly.
 > [!CAUTION]
 > This takes a lot of effort and may break at any time since it isnt really supported! If you really want to, go for it. Very janky but its cool.
 
-Either follow the video guide, or the steps below.
-https://files.catbox.moe/h7nocd.mp4
-
+Either follow the [video guide](https://files.catbox.moe/h7nocd.mp4), or the steps below.
 
 - Open command prompt
 - Run `setx WEBVIEW2_ADDITIONAL_BROWSER_ARGUMENTS "--auto-open-devtools-for-tabs"`
