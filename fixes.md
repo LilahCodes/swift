@@ -161,7 +161,7 @@ Close Swift and Roblox completely.
 - Click **Sync Now**
 
 
-> [!TIP] Title
+> [!TIP]
 > Still not syncing?
 > Use the file from [this Discord message](https://discord.com/channels/868278834821230613/1245586098797678685/1358443560927498280)
 
