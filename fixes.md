@@ -2,7 +2,7 @@
 
 > [!IMPORTANT]
 > [Only official download](https://getswift.gg/)  
-> **Status:** Working</br>
+> **Status:** 🟢 Working</br>
 > **Last updated version:** `c2c9efad42eb44e5`  
 > **Join the community:** [Swift Discord](https://discord.gg/getswift)
 
