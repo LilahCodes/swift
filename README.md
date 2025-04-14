@@ -19,7 +19,7 @@
 - [Issues with No Fix / Planned Features](#issues-with-no-fix--planned-features)
 - [How do I downgrade?](#how-do-i-downgrade)
 - [How do I disable my antivirus?](#how-do-i-disable-my-antivirus)
-- [Custom themes (Advanced users only, takes effort)](#custom-themes)
+- [Custom themes](#custom-themes)
 ### Website
 - [Key system Issues](#key-system-issues)
 ### App
@@ -221,34 +221,5 @@ Now Swift should execute properly.
 
 ## Custom Themes
 
-> [!CAUTION]
-> This may break at any time since it isnt really supported! If you really want to, go for it. Very janky but its cool.
-
-If you make your own theme and wanna share dm it to me on discord and ill put it on this repo
-
-Either follow the [video guide](https://files.catbox.moe/h7nocd.mp4) (RECCOMENDED), or the steps below.
-
-- Open command prompt
-- Run `setx WEBVIEW2_ADDITIONAL_BROWSER_ARGUMENTS "--auto-open-devtools-for-tabs"`
-- Open Swift
-- You now have devtools open, in devtools click sources
-- Click the down arrow next to `Page`
-- Click `Overrides`
-- Click select new folder
-- Create a folder and select it, name it whatever you want e.g themes
-- Click allow access at the top
-
-- Now go back to `Page`
-- Click `app/immutable`
-- Click `entry`
-- Right click `start.D3pUUVXm.js` and press override content
-- Copy the code from [themer.js](https://github.com/LilahCodes/swift/edit/main/themer.js) into your file
-
-Thats it! Save, refresh in devtools and swift will be themed, you can go ahead and close devtools.
-To edit the custom theme just edit the css you find inside your file.
-
-The default file provided here just contains basic css changes mainly colouring but some QOL stuff too because the ui kinda sucky
-
-Annoying thing is every time you launch swift you will have to refresh in devtools for the theme to take effect, just the way overrides work. I said it was a lot of effort.
-
+Iykyk, not technically supported yet will *hopefully* be coming soon 
 ---
