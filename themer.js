@@ -1,4 +1,4 @@
-import { l as load_css, a as start } from "../chunks/wUyw4KCP.js";
+import { l as o, a as r } from "../chunks/BwlVQz40.js";
 const style = document.createElement("style");
 style.innerHTML = `
 .titlebar .p-2 .text-sm {
@@ -68,6 +68,7 @@ style.innerHTML = `
   background-position: center;
   bottom: 5%;
 }
+
 `;
 document.head.appendChild(style);
-export { load_css, start };
+export { o as load_css, r as start };
