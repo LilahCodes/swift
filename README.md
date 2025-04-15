@@ -23,6 +23,7 @@
 ### Website
 - [Key system Issues](#key-system-issues)
 ### App
+- [Crash on inject](#crash-on-inject)
 - [Fatal Error](#fatal-error)
 - [Injection Timeout](#injection-timeout)
 - [Module not found](#module-not-found)
@@ -221,5 +222,14 @@ Now Swift should execute properly.
 
 ## Custom Themes
 
-Iykyk, not technically supported yet will *hopefully* be coming soon 
+Iykyk, not technically supported yet, will *hopefully* be coming soon 
+
 ---
+
+## Crash on inject
+
+> Download [roblox](https://www.roblox.com/download) again, you're probably using an outdated version
+> Inject on the MENU and not in game
+> 
+---
+
