@@ -27,38 +27,38 @@
   position: relative;
   z-index: 1;
 }
-/* all this is a bullshit workaround to not overlap over the code*/
+
 [role="code"]::before {
   content: "";
   position: absolute;
-  inset: 0; /* shorthand for top/right/bottom/left: 0 */
+  inset: 0; 
   background-image: url("https://cdn.shopify.com/s/files/1/0566/0445/9061/files/femboy_banner_1024x1024.jpg?v=1680867742");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  filter: blur(4px); /* reduced blur for better visibility */
-  z-index: -1; /* put the blurred bg behind the content */
-  pointer-events: none; /* let clicks pass through */
+  filter: blur(4px); 
+  z-index: -1; 
+  pointer-events: none; 
   opacity: 0.6;
 }
 [data-mprt="3"] {
-  opacity: 0.8; /* slightly more opaque for better readability */
+  opacity: 0.8; 
 }
 [data-mprt="9"] {
-  display: none !important; /*hide the stupid fucking code minimap*/
+  display: none !important;
 }
 .decorationsOverviewRuler {
-  display: none !important; /*hide the weird indent on the right side of the code input*/
+  display: none !important;
 }
 
 .logo-icon svg {
-  display: none !important; /* hide original svg */
+  display: none !important;
 }
 
 .logo-icon::before {
   content: "";
   display: inline-block;
-  width: 32px; /* adjust as needed */
+  width: 32px;
   height: 32px;
   background-image: url("https://c10.patreonusercontent.com/4/patreon-media/p/campaign/10795315/0d2a82e80e784d09b0f4381871efcd71/eyJ3IjozNjB9/4.jpg?token-time=1745712000&token-hash=_JPRP19IPacoOdGCY39ajLS3plE30YThxQ8R1-XtPIU%3D");
   background-size: contain;
