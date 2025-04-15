@@ -1,0 +1,19 @@
+:root {
+  --color-amber-400: #950606 !important;
+  --color-green-200: #eafff3 !important;
+  --color-green-500: #3bbf92 !important;
+  --color-blue-200: #d8e3ff !important;
+  --color-blue-500: #3a5cff !important;
+  --color-zinc-50: #fcfcfc !important;
+  --color-zinc-200: #ede5f8 !important;
+  --color-zinc-400: #b79cdb !important;
+  --color-zinc-500: #8f78c2 !important;
+  --color-zinc-700: #5e4b86 !important;
+  --color-zinc-800: #950606 !important;
+  --color-zinc-900: #291f39 !important;
+  --color-gold-base: #950606 !important;
+}
+
+.decorationsOverviewRuler {
+  display: none !important;
+}
