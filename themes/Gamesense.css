@@ -1,0 +1,38 @@
+:root {
+  --color-amber-400: #00ff00 !important;
+  --color-green-200: #00ff00 !important;
+  --color-green-500: #00cc00 !important;
+  --color-blue-200: #00ff00 !important;
+  --color-blue-500: #00cc00 !important;
+  --color-zinc-50: #00ff00 !important;
+  --color-zinc-200: #00ff00 !important;
+  --color-zinc-400: #00cc00 !important;
+  --color-zinc-500: #00cc00 !important;
+  --color-zinc-700: #000000 !important;
+  --color-zinc-800: #000000 !important;
+  --color-zinc-900: #000000 !important;
+  --color-gold-base: #00ff00 !important;
+}
+[role="code"] {
+  position: relative;
+  z-index: 1;
+
+[role="code"]::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url("https://images.steamusercontent.com/ugc/784114509691325364/C080DB0B8286B4F02CC5D0166B278E82C8F58B64/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  filter: blur(4px);
+  z-index: -1;
+  pointer-events: none;
+  opacity: 0.6;
+}
+[data-mprt="3"] {
+  opacity: 0.8;
+}
+.decorationsOverviewRuler {
+  display: none !important; 
+}
