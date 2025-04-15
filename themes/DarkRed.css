@@ -1,4 +1,8 @@
 :root {
+  --color-red-200: #f6d3ce !important;
+  --color-red-400: #da7b6b !important;
+  --color-red-500: #cc5641 !important;
+  --color-red-800: #884131 !important;
   --color-amber-400: #950606 !important;
   --color-green-200: #eafff3 !important;
   --color-green-500: #3bbf92 !important;
@@ -6,13 +10,43 @@
   --color-blue-500: #3a5cff !important;
   --color-zinc-50: #fcfcfc !important;
   --color-zinc-200: #ede5f8 !important;
-  --color-zinc-400: oklch(0.705 0.015 286.067);
-  --color-zinc-500: oklch(0.552 0.016 285.938);
-  --color-zinc-600: oklch(0.442 0.017 285.786);
-  --color-zinc-700: oklch(0.37 0.013 285.805);
-  --color-zinc-800: #950606 !important;
+  --color-zinc-300: #ddd3f0 !important;
+  --color-zinc-400: #b79cdb !important;
+  --color-zinc-500: #8f78c2 !important;
+  --color-zinc-600: #715f9e !important;
+  --color-zinc-700: #5e4b86 !important;
+  --color-zinc-800: #392b4f !important;
   --color-zinc-900: #291f39 !important;
+  --color-neutral-900: #281f38 !important;
+  --color-black: #000000 !important;
+  --color-white: #ffffff !important;
   --color-gold-base: #950606 !important;
+}
+
+[role="code"] {
+  position: relative;
+  z-index: 1;
+}
+
+[role="code"]::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url("https://t4.ftcdn.net/jpg/02/98/83/83/360_F_298838382_eIUHV1oJGgejdgYVhMklu9p3Gax2lSqF.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  filter: blur(4px);
+  z-index: -1;
+  pointer-events: none;
+}
+
+[data-mprt="3"] {
+  opacity: 0.8;
+}
+
+[data-mprt="9"] {
+  display: none !important;
 }
 
 .decorationsOverviewRuler {
