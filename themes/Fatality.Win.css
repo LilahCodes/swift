@@ -1,0 +1,38 @@
+:root {
+  --color-amber-400: #9b59b6 !important;
+  --color-green-200: #9b59b6 !important;
+  --color-green-500: #8e44ad !important;
+  --color-blue-200: #9b59b6 !important;
+  --color-blue-500: #8e44ad !important;
+  --color-zinc-50: #9b59b6 !important;
+  --color-zinc-200: #9b59b6 !important;
+  --color-zinc-400: #8e44ad !important;
+  --color-zinc-500: #8e44ad !important;
+  --color-zinc-700: #000000 !important;
+  --color-zinc-800: #000000 !important;
+  --color-zinc-900: #000000 !important;
+  --color-gold-base: #9b59b6 !important;
+}
+[role="code"] {
+  position: relative;
+  z-index: 1;
+}
+[role="code"]::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTA-aLGuqraN5PIrWA8ALSFyyz5GUXrtQWM3Q&s");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  filter: blur(4px);
+  z-index: -1;
+  pointer-events: none;
+  opacity: 0.6;
+}
+[data-mprt="3"] {
+  opacity: 0.8;
+}
+[data-mprt="9"] {
+  display: none !important;
+}
