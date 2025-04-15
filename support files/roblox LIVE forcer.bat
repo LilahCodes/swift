@@ -1,3 +1,5 @@
+:: Credit @aprllfools on discord
+
 @echo off
 setlocal EnableDelayedExpansion
 title Force Roblox Version to LIVE
