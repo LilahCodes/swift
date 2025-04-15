@@ -228,8 +228,8 @@ Iykyk, not technically supported yet, will *hopefully* be coming soon
 
 ## Crash on inject
 
-> Download [roblox](https://www.roblox.com/download) again, you're probably using an outdated version
-> Inject on the MENU and not in game
-> 
+- Download [roblox](https://www.roblox.com/download) again, you're probably using an outdated version
+- Inject on the MENU and not in game
+ 
 ---
 
