@@ -6,9 +6,10 @@
   --color-blue-500: #3a5cff !important;
   --color-zinc-50: #fcfcfc !important;
   --color-zinc-200: #ede5f8 !important;
-  --color-zinc-400: #b79cdb !important;
-  --color-zinc-500: #8f78c2 !important;
-  --color-zinc-700: #5e4b86 !important;
+  --color-zinc-400: oklch(0.705 0.015 286.067);
+  --color-zinc-500: oklch(0.552 0.016 285.938);
+  --color-zinc-600: oklch(0.442 0.017 285.786);
+  --color-zinc-700: oklch(0.37 0.013 285.805);
   --color-zinc-800: #950606 !important;
   --color-zinc-900: #291f39 !important;
   --color-gold-base: #950606 !important;
