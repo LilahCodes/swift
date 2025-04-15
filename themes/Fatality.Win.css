@@ -33,6 +33,6 @@
 [data-mprt="3"] {
   opacity: 0.8;
 }
-[data-mprt="9"] {
+.decorationsOverviewRuler {
   display: none !important;
 }
