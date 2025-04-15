@@ -1,5 +1,15 @@
+.titlebar .p-2 .text-sm {
+  color: transparent;
+  position: relative;
+}
+.titlebar .p-2 .text-sm::after {
+  content: "ratsploit.exe"; /*change name in top left*/
+  position: absolute;
+  color:  var(--color-zinc-200);
+  left: 5%;
+}
 :root {
-  --color-amber-400: #dda0dd !important; /* i cant remember what this ones for LOL */
+  --color-amber-400: #dda0dd !important;
   --color-green-200: white !important; /* alert text colour */
   --color-green-500: #23122c !important; /* alert background colour */
   --color-blue-200: #ff6347 !important; /* Tomato */
@@ -13,7 +23,6 @@
   --color-zinc-900: rgb(41, 31, 57) !important; /* main background colour */
   --color-gold-base: #dda0dd !important; /* gold bars */
 }
-
 [role="code"] {
   position: relative;
   z-index: 1;
@@ -31,15 +40,28 @@
   z-index: -1; /* put the blurred bg behind the content */
   pointer-events: none; /* let clicks pass through */
 }
-
 [data-mprt="3"] {
   opacity: 0.8; /* controls how well you can see the background image */
 }
-
 [data-mprt="9"] {
   display: none !important; /*hide the stupid fucking code minimap*/
 }
-
 .decorationsOverviewRuler {
   display: none !important; /*hide the weird indent on the right side of the code input*/
+}
+
+.logo-icon svg {
+  display: none !important; /* hide original svg */
+}
+
+.logo-icon::before {
+  content: "";
+  display: inline-block;
+  width: 32px; /* adjust as needed */
+  height: 32px;
+  background-image: url("https://png.pngtree.com/png-vector/20221010/ourmid/pngtree-cartoon-rat-with-angry-expression-png-image_6270513.png"); /*new logo link for top left*/
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  bottom: 5%;
 }
