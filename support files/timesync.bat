@@ -1,3 +1,4 @@
+:: credit to some random guy on stackoverflow i skidded from
 @echo off
 echo Forcing time sync...
 net stop w32time
