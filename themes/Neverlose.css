@@ -1,0 +1,38 @@
+:root {
+  --color-amber-400: #3498db !important;
+  --color-green-200: #3498db !important;
+  --color-green-500: #2980b9 !important;
+  --color-blue-200: #3498db !important;
+  --color-blue-500: #2980b9 !important;
+  --color-zinc-50: #3498db !important;
+  --color-zinc-200: #3498db !important;
+  --color-zinc-400: #2980b9 !important;
+  --color-zinc-500: #2980b9 !important;
+  --color-zinc-700: #000000 !important;
+  --color-zinc-800: #000000 !important;
+  --color-zinc-900: #000000 !important;
+  --color-gold-base: #3498db !important;
+}
+[role="code"] {
+  position: relative;
+  z-index: 1;
+}
+[role="code"]::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url("https://sun1-14.userapi.com/impf/7PvWQkqGvpm9B2iawbtEuSTUgd1FcBF7OEVYFg/kZ6QRJsiMAA.jpg?size=1920x768&quality=95&crop=0,0,1920,767&sign=822f8e39fa78173bc529056d554af23f&type=cover_group");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  filter: blur(4px);
+  z-index: -1;
+  pointer-events: none;
+  opacity: 0.6;
+}
+[data-mprt="3"] {
+  opacity: 0.8;
+}
+.decorationsOverviewRuler {
+  display: none !important;
+}
