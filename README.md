@@ -167,7 +167,7 @@ Close Swift and Roblox completely.
 
 > [!TIP]
 > Still not syncing?
-> Use the file from [this Discord message](https://discord.com/channels/868278834821230613/1245586098797678685/1358443560927498280)
+> Run [this](https://github.com/LilahCodes/swift/blob/main/support%20files/timesync.bat) file as admin to hopefully sync for you
 
 ---
 
@@ -229,6 +229,7 @@ Iykyk, not technically supported yet, will *hopefully* be coming soon
 ## Crash on inject
 
 - Download [roblox](https://www.roblox.com/download) again, you're probably using an outdated version
+- If roblox just keeps launching an outdated version, use [this](https://github.com/LilahCodes/swift/blob/main/support%20files/roblox%20LIVE%20forcer.bat) tool to update for you
 - Inject on the MENU and not in game
  
 ---
