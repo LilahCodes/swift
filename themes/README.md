@@ -15,6 +15,5 @@ To use custom themes:
 ---
 ## Limitations
 
-Currently, the only custom themes you can use are the ones provided here in the themes folder. You dont need to download any of these files, the themer does that for you. We will be taking theme requests from boosters in the [discord](https://discord.gg/getswift).
+Currently, the only custom themes you can use are the ones provided here in the themes folder. You dont need to download any of these files, the themer does that for you. We will be taking theme requests from boosters in the [discord](https://discord.gg/getswift), which if accepted will then be uploaded here.
 
----
