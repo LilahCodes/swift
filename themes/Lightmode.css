@@ -1,0 +1,170 @@
+.titlebar .p-2 .text-sm {
+    color: transparent;
+    position: relative;
+  }
+  
+  .titlebar .p-2 .text-sm::after {
+    content: "Swift";
+    position: absolute;
+    color: #1a1a1a;
+    left: 5%;
+    font-weight: 500;
+  }
+  
+  .titlebar {
+    border-bottom: 1px solid var(--border-color);
+  }
+
+  :root {
+    --accent-primary: #ebbf7c;
+    --accent-secondary: #d4a86a;
+    --bg-primary: #ffffff;
+    --bg-secondary: #f8f9fa;
+    --border-color: rgba(235, 191, 124, 0.2);
+    --nav-height: 28px;
+    --editor-bg: #ffffff;
+    
+    --color-amber-400: var(--accent-primary) !important;
+    --color-green-200: var(--accent-primary) !important;
+    --color-green-500: var(--accent-secondary) !important;
+    --color-blue-200: var(--accent-primary) !important;
+    --color-blue-500: var(--accent-secondary) !important;
+    --color-zinc-50: #1a1a1a !important;
+    --color-zinc-200: #1a1a1a !important;
+    --color-zinc-400: #4a4a4a !important;
+    --color-zinc-500: #4a4a4a !important;
+    --color-zinc-700: var(--bg-primary) !important;
+    --color-zinc-800: var(--bg-primary) !important;
+    --color-zinc-900: var(--bg-primary) !important;
+    --color-gold-base: var(--accent-primary) !important;
+  }
+  
+  [role="code"] {
+    position: relative;
+    z-index: 1;
+    background: var(--editor-bg) !important;
+    backdrop-filter: none;
+    border: 1px solid var(--border-color);
+  }
+  
+  [role="code"]::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: var(--editor-bg);
+    z-index: -1;
+    pointer-events: none;
+  }
+
+  .monaco-editor-background {
+    background: var(--editor-bg) !important;
+  }
+  
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: var(--bg-secondary);
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: var(--accent-secondary);
+    border-radius: 4px;
+  }
+  
+  aside button,
+  .flex.space-x-2.p-2.bg-zinc-900 .tab {
+    transition: all 0.2s ease;
+    border-radius: 6px;
+  }
+  
+  aside button:hover,
+  .flex.space-x-2.p-2.bg-zinc-900 .tab:hover {
+    background: var(--border-color);
+  }
+  
+  .flex.space-x-2.p-2.bg-zinc-900 {
+    height: var(--nav-height);
+    padding: 2px 4px;
+    background: var(--bg-primary) !important;
+    border-top: 1px solid var(--border-color);
+    backdrop-filter: blur(20px);
+  }
+  
+  .flex.space-x-2.p-2.bg-zinc-900 .tab {
+    height: calc(var(--nav-height) - 4px);
+    padding: 0 8px;
+    display: flex;
+    align-items: center;
+    color: var(--accent-secondary) !important;
+  }
+  
+  .flex.space-x-2.p-2.bg-zinc-900 .tab:hover,
+  .flex.space-x-2.p-2.bg-zinc-900 .tab.active {
+    color: var(--accent-primary) !important;
+    background: var(--bg-secondary);
+  }
+  
+  .logo-icon svg {
+  display: none !important; /* hide original svg */
+  }   
+
+  .logo-icon::before {
+    content: "";
+    display: inline-block;
+    width: 32px; /* adjust as needed */
+    height: 32px;
+    background-image: url("https://media.discordapp.net/attachments/1321480914047336479/1361857287378964591/download.png?ex=680047ef&is=67fef66f&hm=d2077d770fa3f06bd6a49e236ac787816dbf2eeea734df1f821c28af2463a66c&=&format=webp&quality=lossless"); /*new logo link for top left*/
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    bottom: 5%;
+  }
+  
+  aside button.active::before {
+    content: '';
+    position: absolute;
+    left: -8px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 4px;
+    height: 4px;
+    background: var(--accent-primary);
+    border-radius: 50%;
+    box-shadow: 0 0 10px var(--accent-primary);
+  }
+  
+  .flex.space-x-2.p-2.bg-zinc-900 .tab.active {
+    background: var(--border-color);
+  }
+
+  .margin-view-overlays,
+  .monaco-editor .margin,
+  .monaco-editor,
+  .monaco-editor-background,
+  .monaco-editor .inputarea.ime-input,
+  .minimap-decorations-layer,
+  [data-mprt="9"],
+  .minimap.slider-mouseover {
+    background: var(--editor-bg) !important;
+  }
+
+  .decorationsOverviewRuler,
+  canvas.decorationsOverviewRuler,
+  .monaco-editor .decorationsOverviewRuler {
+    background-color: var(--editor-bg) !important;
+    background: var(--editor-bg) !important;
+    border-left: 1px solid var(--border-color) !important;
+  }
+
+  .decorationsOverviewRuler::before,
+  .decorationsOverviewRuler::after {
+    display: none !important;
+  }
+
+  .current-line,
+  .current-line-margin {
+    background: var(--bg-secondary) !important;
+  }
