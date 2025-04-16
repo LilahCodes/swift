@@ -12,6 +12,7 @@
     --color-zinc-800: #141414 !important;
     --color-zinc-900: #141414 !important;
     --color-gold-base: #fbc470 !important;
+    --nav-height: 44px;  
   }
   
   .icon-file svg, 
@@ -67,10 +68,10 @@
     z-index: 2;
     display: flex;
     justify-content: flex-start;
-    padding: 4px;
+    padding: 6px 8px;  /* Increased padding */
     margin: 0;
     gap: 4px;
-    height: 40px;
+    height: var(--nav-height);
     box-sizing: border-box;
     transition: all 0.3s ease;
     overflow: hidden;
@@ -79,9 +80,9 @@
   }
   
   .flex.space-x-2.p-2.bg-zinc-900 .tab {
-    padding: 4px;
-    min-width: 32px;
-    height: 32px;
+    padding: 0 16px;  /* Increased padding */
+    min-width: 48px;  /* Increased min-width */
+    height: calc(var(--nav-height) - 12px);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -93,8 +94,8 @@
   }
   
   .flex.space-x-2.p-2.bg-zinc-900 .tab svg {
-    width: 16px;
-    height: 16px;
+    width: 24px;  /* Increased from 20px */
+    height: 24px;  /* Increased from 20px */
     flex-shrink: 0;
   }
   
