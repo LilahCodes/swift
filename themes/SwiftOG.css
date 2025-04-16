@@ -1,0 +1,277 @@
+:root {
+    --color-amber-400: #fbc470 !important;
+    --color-green-200: #fbc470 !important;
+    --color-green-500: #FBC470 !important;
+    --color-blue-200: #fbc470 !important;
+    --color-blue-500: #FBC470 !important;
+    --color-zinc-50: #ffffff !important;
+    --color-zinc-200: #ffffff !important;
+    --color-zinc-400: #ffffff !important;
+    --color-zinc-500: #ffffff !important;
+    --color-zinc-700: #141414 !important;
+    --color-zinc-800: #141414 !important;
+    --color-zinc-900: #141414 !important;
+    --color-gold-base: #fbc470 !important;
+  }
+  
+  .icon-file svg, 
+  .icon-search svg, 
+  .svg-icon,
+  aside button svg path,
+  .flex.space-x-2.p-2.bg-zinc-900 .tab svg path,
+  .tab span.w-5.h-5 svg path {
+    fill: var(--color-gold-base) !important;
+  }
+  
+  .text-zinc-50, 
+  .text-zinc-200, 
+  .text-zinc-400, 
+  .text-zinc-500 {
+    color: var(--color-zinc-50) !important;
+  }
+  
+  [role="code"] {
+    position: relative;
+    z-index: 1;
+    background: var(--color-zinc-700) !important;
+  }
+  
+  [role="code"]::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: var(--color-zinc-700);
+    z-index: -1;
+    pointer-events: none;
+  }
+  
+  [data-mprt="3"] {
+    opacity: 0.8;
+  }
+  
+  [data-mprt="9"],
+  .decorationsOverviewRuler {
+    display: none !important;
+  }
+  
+  .flex.space-x-2.p-2.bg-zinc-900 {
+    position: fixed;
+    bottom: 0;
+    left: 264px;
+    right: 0;
+    width: 100%;
+    min-width: 400px;
+    background: var(--color-zinc-700) !important;
+    backdrop-filter: blur(5px);
+    border-top: 1px solid rgba(251, 196, 112, 0.3);
+    z-index: 2;
+    display: flex;
+    justify-content: flex-start;
+    padding: 4px;
+    margin: 0;
+    gap: 4px;
+    height: 40px;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+    overflow: hidden;
+    margin-left: 0 !important;
+    overflow-x: auto;
+  }
+  
+  .flex.space-x-2.p-2.bg-zinc-900 .tab {
+    padding: 4px;
+    min-width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ababab !important;
+  }
+  
+  .flex.space-x-2.p-2.bg-zinc-900 .tab:hover {
+    color: var(--color-gold-base) !important;
+  }
+  
+  .flex.space-x-2.p-2.bg-zinc-900 .tab svg {
+    width: 16px;
+    height: 16px;
+    flex-shrink: 0;
+  }
+  
+  aside button {
+    color: var(--color-gold-base) !important;
+    position: relative;
+  }
+  
+  aside button:hover {
+    color: var(--color-gold-base) !important;
+  }
+  
+  aside button .active,
+  aside button .inactive {
+    color: var(--color-gold-base) !important;
+  }
+  
+  .bg-zinc-800, 
+  .bg-zinc-900, 
+  .bg-zinc-700, 
+  .monaco-editor-background, 
+  .margin-view-overlays {
+    background: var(--color-zinc-700) !important;
+  }
+  
+  .margin-view-overlays .current-line-margin {
+    background: var(--color-zinc-700) !important;
+  }
+  
+  .lines-content.monaco-editor-background,
+  .flex.flex-col.flex-1.overflow-y-auto {
+    margin-bottom: 60px !important;
+    padding-bottom: 60px !important;
+  }
+  
+  button[title="Attach to Roblox"] {
+    margin-left: auto !important;
+    min-width: 40px !important;
+    flex-shrink: 0 !important;
+  }
+  
+  @media screen and (min-width: 864px) {
+    .flex.space-x-2.p-2.bg-zinc-900 {
+      width: calc(100% - 264px);
+    }
+  }
+  
+  @media screen and (min-width: 1024px) {
+    .flex.space-x-2.p-2.bg-zinc-900 {
+      width: calc(100% - 264px);
+    }
+  }
+  
+  @media screen and (min-width: 1200px) {
+    .flex.space-x-2.p-2.bg-zinc-900 {
+      width: calc(100% - 264px);
+    }
+  }
+  
+  @media screen and (max-width: 400px) {
+    .flex.space-x-2.p-2.bg-zinc-900 {
+      width: 400px;
+      overflow-x: auto;
+    }
+  }
+  
+  @media screen and (max-width: 863px) {
+    .flex.space-x-2.p-2.bg-zinc-900 {
+      left: 244px;
+      right: 0;
+      width: auto;
+      margin-left: 0 !important;
+    }
+  }
+  
+  @media screen and (max-width: 862px) {
+    .flex.space-x-2.p-2.bg-zinc-900 {
+      left: 244px;
+      right: 0;
+      width: auto;
+      margin-left: 0 !important;
+    }
+  }
+  
+  @media screen and (max-width: 861px) {
+    .flex.space-x-2.p-2.bg-zinc-900 {
+      left: 244px;
+      right: 0;
+      width: auto;
+      margin-left: 0 !important;
+    }
+  }
+  
+  @media screen and (max-width: 860px) {
+    .flex.space-x-2.p-2.bg-zinc-900 {
+      left: 244px;
+      right: 0;
+      width: auto;
+      margin-left: 0 !important;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .flex.space-x-2.p-2.bg-zinc-900 {
+      width: 867px;
+      min-width: 867px;
+      max-width: 867px;
+    }
+  }
+  
+  @media screen and (max-width: 640px) {
+    .flex.space-x-2.p-2.bg-zinc-900 {
+      width: 868px;
+      min-width: 868px;
+      max-width: 868px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .flex.space-x-2.p-2.bg-zinc-900 {
+      width: 869px;
+      min-width: 869px;
+      max-width: 869px;
+    }
+    
+    .flex.space-x-2.p-2.bg-zinc-900 .tab {
+      padding: 2px;
+      min-width: 28px;
+      height: 28px;
+    }
+    
+    .flex.space-x-2.p-2.bg-zinc-900 .tab svg {
+      width: 14px;
+      height: 14px;
+    }
+  }
+  
+  [role="alert"] {
+    position: fixed;
+    top: 85px;
+    right: 20px;
+    z-index: 1000;
+    max-width: 400px;
+    margin: 0;
+  }
+  
+  .flex.space-x-2.p-2.bg-zinc-900 .tab span.w-5.h-5 svg path {
+    fill: #ababab !important;
+  }
+  
+  .flex.space-x-2.p-2.bg-zinc-900 .tab:hover span.w-5.h-5 svg path {
+    fill: var(--color-gold-base) !important;
+  }
+  
+  .flex.space-x-2.p-2.bg-zinc-900 .tab.active::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: -10px;
+    transform: translateY(-50%);
+    width: 8px;
+    height: 8px;
+    background-color: var(--color-gold-base);
+    border-radius: 50%;
+    opacity: 0.9;
+    pointer-events: none;
+  }
+  
+  aside button.active::after {
+    content: '';
+    position: absolute;
+    left: -10px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: var(--color-gold-base);
+    opacity: 0.9;
+  }
