@@ -3,7 +3,7 @@
 > [!IMPORTANT]
 > [Only official download](https://getswift.gg/)  
 > **Status:** 🟢 Working</br>
-> **Last updated version:** `c2c9efad42eb44e5`  
+> **Last updated version:** `b83d92f2144a48e2`  
 > **Join the community:** [Swift Discord](https://discord.gg/getswift)
 
 ---
