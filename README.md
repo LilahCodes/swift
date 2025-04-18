@@ -23,6 +23,7 @@
 ### Website
 - [Key system Issues](#key-system-issues)
 ### App
+- [Initialization failed: Unexpected Error](#initialization-failed-unexpected-error)
 - [Crash on inject](#crash-on-inject)
 - [Fatal Error](#fatal-error)
 - [Injection Timeout](#injection-timeout)
@@ -46,6 +47,15 @@ Script editor bugs:
 
 Planned:
 - Multi-instance is not yet supported. Might work via third-party tools, but official support is coming soon.
+
+---
+
+## Initialization failed: Unexpected Error
+
+> Close swift if open
+> If you are using a vpn disable it. If you are not using a [vpn](#what-vpn-to-use), enable one
+> Relaunch swift
+> If swift has launched fully without that error, you can now disable ur vpn
 
 ---
 
