@@ -1,16 +1,16 @@
-# 🎨 Custom Themes (UNRELEASED)
+# 🎨 Custom Themes
 
-To use custom themes: 
-- Head to [releases](https://github.com/LilahCodes/swift/releases)
-- Download the latest SwiftThemer.exe file
-- Place it inside your swift folder
-- Run SwiftThemer.exe
+> [!IMPORTANT]
+> You will need to create an exclusion for this or it wont work, id recommend just excluding the whole swift folder. 
+> If you dont know how, head to [the guide](https://github.com/LilahCodes/swift/blob/main/README.md#how-do-i-disable-my-antivirus)
 
----
-## Features
+- Download the exe
+- Place in the same folder as Swift
+- Launch and follow the instructions
+- Have fun with themes!
 
-- Auto updating
-- Backs up your swift key as swift sometimes just forgets it?? If you randomly get logged out, grab ur key from the backup file and re-enter it
+Still very new, expect bugs. If you find some either lmk on discord or open an issue here.
+Synapse theme still in dev, again expect bugs
   
 ---
 ## Limitations
