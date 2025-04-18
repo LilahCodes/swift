@@ -134,7 +134,7 @@ Close Swift and Roblox completely.
 > [!IMPORTANT]
 > First, make sure [antivirus is disabled and exceptions are added](#how-do-i-disable-my-antivirus). Defender can silently delete `Ckfn1k59vk.exe`.
 
-- [Restore the DLL](https://www.youtube.com/watch?v=EWaw1XZJj58)  
+- [Restore the EXE](https://www.youtube.com/watch?v=EWaw1XZJj58)  
 - [Add an Exception](#how-do-i-disable-my-antivirus)
 
 ### Still getting this error?
