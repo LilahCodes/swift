@@ -137,7 +137,7 @@ Close Swift and Roblox completely.
 - [Add an Exception](#how-do-i-disable-my-antivirus)
 
 Open roblox, go to more, then about
-![image](https://github.com/user-attachments/assets/c9af3d40-d604-4c20-b9a0-a6f230f40b1a)
+![image](https://github.com/user-attachments/assets/c9af3d40-d604-4c20-b9a0-a6f230f40b1a)</br>
 Compare this information with someone who isn't getting the error. As you may be on the wrong version
 
 ### Still getting this error?
