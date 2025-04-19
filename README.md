@@ -241,6 +241,7 @@ Now supported! Head over [here](https://github.com/LilahCodes/swift/blob/main/th
 
 ## Crash on inject
 
+- Make sure to inject in the home page of the **ROBLOX APP**, do **not** use the web version
 - Download [roblox](https://www.roblox.com/download) again, you're probably using an outdated version
 - If roblox just keeps launching an outdated version, use [this](https://github.com/LilahCodes/swift/blob/main/support%20files/roblox%20LIVE%20forcer.bat) tool to update for you
 - Inject on the MENU and not in game
