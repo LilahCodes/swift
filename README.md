@@ -136,6 +136,10 @@ Close Swift and Roblox completely.
 - [Restore the EXE](https://www.youtube.com/watch?v=EWaw1XZJj58)  
 - [Add an Exception](#how-do-i-disable-my-antivirus)
 
+Open roblox, go to more, then about
+![image](https://github.com/user-attachments/assets/c9af3d40-d604-4c20-b9a0-a6f230f40b1a)
+Compare this information with someone who isn't getting the error. As you may be on the wrong version
+
 ### Still getting this error?
 
 - Log into an **administrator account**
@@ -231,7 +235,7 @@ Now Swift should execute properly.
 
 ## Custom Themes
 
-Iykyk, not technically supported yet, will *hopefully* be coming soon 
+Now supported! Head over [here](https://github.com/LilahCodes/swift/blob/main/themes/README.md) to learn more.
 
 ---
 
