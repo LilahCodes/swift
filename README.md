@@ -145,6 +145,7 @@ If you are, update and compare again. Also make sure channel is production!
 - Paste the following `if exist "%temp%\Ckfn1k59vk.exe" (echo File exists) else (echo File not found)`, and hit enter
 - If the file dosen't exist, use a [vpn](#what-vpn-to-use) close swift, rerun
 - After swift fully opens run the cmd again to see if the file is now there
+- If it is, you can now turn off the vpn, restart swift, and use as normal.
 
 
 ---
@@ -199,6 +200,9 @@ If you are, update and compare again. Also make sure channel is production!
 ---
 
 ## Not executing
+
+SPAM the execute button, wait, spam more, wait, spam more.
+Sometimes it just bugs out like that, if its still not executing then:
 
 - Press `Win + R`, type: `%localappdata%`  
 - Go to `Roblox/Versions`, delete **everything**
