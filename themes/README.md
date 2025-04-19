@@ -4,7 +4,7 @@
 > You will need to create an exclusion for this or it wont work, id recommend just excluding the whole swift folder. 
 > If you dont know how, head to [the guide](https://github.com/LilahCodes/swift/blob/main/README.md#how-do-i-disable-my-antivirus)
 
-- Download the exe
+- Download the [exe](https://github.com/LilahCodes/swift/releases/latest)
 - Place in the same folder as Swift
 - Launch and follow the instructions
 - Have fun with themes!
