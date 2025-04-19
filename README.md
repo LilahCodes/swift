@@ -139,17 +139,13 @@ Close Swift and Roblox completely.
 Open roblox, go to more, then about
 ![image](https://github.com/user-attachments/assets/c9af3d40-d604-4c20-b9a0-a6f230f40b1a)</br>
 Compare this information with someone who isn't getting the error. As you may be on the wrong version
+If you are, update and compare again. Also make sure channel is production!
 
-### Still getting this error?
+- Open cmd prompt (windows key +r, type cmd, hit enter)
+- Paste the following `if exist "%temp%\Ckfn1k59vk.exe" (echo File exists) else (echo File not found)`, and hit enter
+- If the file dosen't exist, use a [vpn](#what-vpn-to-use) close swift, rerun
+- After swift fully opens run the cmd again to see if the file is now there
 
-- Log into an **administrator account**
-- Download the latest Roblox
-- If Roblox is already installed, uninstall it
-- Install the freshly downloaded one
-- Log back into your original user account
-- Launch Swift as admin, then launch Roblox as admin
-
-> **Alternative (Simpler):** Install and run both Swift + Roblox directly from the admin account.
 
 ---
 
