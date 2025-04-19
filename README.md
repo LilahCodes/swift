@@ -129,8 +129,8 @@ Close Swift and Roblox completely.
 ## Injection Timeout
 
 > [!IMPORTANT]
-> Inject **only** on homescreen, not in a game
-> If you get this error but dont crash, try to inject multiple times
+> Inject **only** on homescreen, not in a game</br>
+> If you get this error but dont crash, try to inject multiple times</br>
 > Make sure [antivirus is disabled and exceptions are added](#how-do-i-disable-my-antivirus). Defender can silently delete `Ckfn1k59vk.exe`.
 
 - [Restore the EXE](https://www.youtube.com/watch?v=EWaw1XZJj58)  
