@@ -1,5 +1,14 @@
 # 🛠️ Swift Troubleshooting Guide
 
+> [!CAUTION]
+> The Swift discord server got terminated in a large scale banwave against executor servers</br>
+> If you really want to keep up to date with swift, join the [telegram channel](https://t.me/getswift_gg)</br>
+> If you instead want an executor that actually gets updated, with a dev team can be bothered working, join [visual](https://discord.gg/getvisual)! A new, better, actually updated exec owned and developed by peyton</br>
+> **IF YOU BOUGHT SWIFT LIFETIME, VISUAL WILL COMPENSATE YOU**</br>
+> [![image](https://github.com/user-attachments/assets/6adc3d91-49fc-4850-8454-e5b65d0403ac)](https://discord.gg/getvisual)
+</br>
+</br>
+
 > [!IMPORTANT]
 > [Only official download](https://getswift.gg/)  
 > **Status:** 🟢 Working</br>
